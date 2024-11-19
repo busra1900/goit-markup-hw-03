@@ -135,6 +135,7 @@ ul {
 
 .container{
     width: 1158px;
+    height: auto;
         margin: 0 auto;
         padding: 0 15px;
         justify-content: center;
@@ -161,6 +162,7 @@ ul {
     letter-spacing: 0.02em;
     color: #ffffff;
     background-color: #2e2f42;
+    max-width: 496px;
     
 }
 
@@ -228,6 +230,7 @@ ul {
 .our-team{
     background-color: #f4f4fd;
     display: block;
+    padding: 120px 0;
     
     height: 732px;
     
@@ -242,6 +245,7 @@ ul {
 
 .our-team ul{
     display:flex;
+    gap: 24px;
 }
 
 .title-team{
@@ -251,10 +255,12 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .job-list {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
     
 }
 
@@ -272,16 +278,19 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .personal, .job{
-    margin-top:32px;
-    margin-bottom: 3px;
+    
     text-align: center;
+    padding: 32px 0;
 }
 
 .job{
     margin-top:8px;
+    text-align: center;
 }
 
 
@@ -294,27 +303,29 @@ ul {
     color: #434455;
 }
 
-.Our-Portfolio .container{
-    width: 1158px;
-    height: 1000px;
-}
 
-
-.container .list-first{
+.Our-Portfolio ul{
+    
     display: flex;
-    gap:24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+.Our-Portfolio .container ul li div{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 
-.container .list-second {
-    display: flex;
-    gap: 24px;
-}
 
 .Our-Portfolio .container img{
     width: 360px;
     height: 300px;
-    margin bottom:
+    
 }
     
 
@@ -352,10 +363,16 @@ ul {
     margin-bottom:16px;
 }
 
+
+footer{
+    padding: 100px 0;
+}
 .finished{
     background-color: #2e2f42;
     height: 312px;
     padding:140px 1020px 100px 156px;
+    margin-top: 120px;
+
 
 }
 
@@ -367,6 +384,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-third{
