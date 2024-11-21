@@ -15,11 +15,13 @@ body {
 
 }
 
-img{
+ img{
     display: block;
+} 
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
-
-
 
 .nav-bar-top{
     width: 1158px;
@@ -189,30 +191,29 @@ ul {
 
 }
 
-.random ul{
+.list-item{
     display: flex;
     flex-direction: row;
     gap:24px;
-   
-    
+   }
 
-}
-
-
-.items{
+   .list{
     width: calc((100% - 72px) / 4);
-    flex-basis: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
-}
+
+   }
+
 
 .items{
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    width: calc((100% - 72px) / 4);
     
+    margin-bottom: 8px;
 }
+
 
 .paragraph{
     line-height: 1.5;
@@ -292,40 +293,36 @@ ul {
 }
 
 .Our-Portfolio{
-    padding: 120px 0;
+ padding: 120px 0;
+ padding-left:120px;
 }
 
 
 
-.Our-Portfolio ul{
-    
+.Our-Portfolio .container ul{
+    display :block;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+   max-height: 1000px;
+    width: 1158px;
     row-gap: 48px;
-    width: calc((100% - 72px) / 4);
-
+    column-gap: 24px;
 }
 
-.Our-Portfolio .container{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+
+.list-portfolio{
+    width:360;
+    height:420;
+    border: 1px solid #FFFFFF;
     border-top: none;
-width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
-}
-
-.Our-Portfolio .container ul li div {
-
     
-    
+
 }
 
 
-
-.Our-Portfolio .container img{
-    width: 360px;
-    height: 300px;
+.Our-Portfolio .container ul .list-portfolio img{
+    display:block;
     
 }
     
@@ -366,14 +363,13 @@ width: calc((100% - 72px) / 4);
 }
 
 
-footer{
-    padding: 100px 0;
-}
+
 .finished{
     background-color: #2e2f42;
     height: 312px;
     padding:140px 1020px 100px 156px;
     margin-top: 120px;
+    padding: 100px 0;
 
 
 }
@@ -404,6 +400,7 @@ letter-spacing: 0.02em;
 .footer-container{
     width: 264px;
     height: 112px;
+    margin-left:120px;
     
     
 }
