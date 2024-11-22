@@ -272,13 +272,22 @@ ul {
 }
 
 .list-portfolio {
+<<<<<<< HEAD
+=======
+  width: 360;
+  height: 420;
+>>>>>>> db09e27b385f47cf851d94ce22e6ce3c848593c0
   border: 1px solid #ffffff;
   border-top: none;
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
 }
 
+<<<<<<< HEAD
 .Our-Portfolio .container {
+=======
+.list-portfolio div {
+>>>>>>> db09e27b385f47cf851d94ce22e6ce3c848593c0
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -287,9 +296,12 @@ ul {
 
 .Our-Portfolio .container ul .list-portfolio img {
   display: block;
+<<<<<<< HEAD
   width: 260;
   height: 420;
   padding: 0 auto;
+=======
+>>>>>>> db09e27b385f47cf851d94ce22e6ce3c848593c0
 }
 
 .title-first {
