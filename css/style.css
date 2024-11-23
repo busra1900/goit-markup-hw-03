@@ -51,6 +51,7 @@ a {
   color: #4d5ae5;
   margin-right: 76px;
   padding-left: 156px;
+  padding-top: 24px;
 }
 
 .logo-second {
@@ -83,6 +84,7 @@ ul {
 
 .address {
   margin: 0 auto;
+  padding-top: 24px;
 }
 
 .list-address {
