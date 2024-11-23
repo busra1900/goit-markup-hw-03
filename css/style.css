@@ -22,7 +22,7 @@ body img {
 }
 
 .header .container {
-  width: 1158px;
+  width: auto;
   height: 72px;
   display: flex;
   flex-direction: row;
@@ -257,11 +257,11 @@ ul {
   text-align: center;
 }
 
-.Our-Portfolio {
+.our-portfolio {
   padding: 120px 0;
 }
 
-.Our-Portfolio .container ul {
+.our-portfolio .container ul {
   display: block;
   display: flex;
   flex-wrap: wrap;
@@ -269,6 +269,8 @@ ul {
   width: 1158px;
   row-gap: 48px;
   column-gap: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 .list-portfolio {
@@ -278,16 +280,25 @@ ul {
   border-top: none;
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
+  margin-right: 84px;
 }
 
-.Our-Portfolio .container {
+.list-portfolio div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  width: 360px;
+}
+
+.our-portfolio .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
 
-.Our-Portfolio .container ul .list-portfolio img {
+.our-portfolio .container ul .list-portfolio img {
   display: block;
   width: 260;
   height: 420;
@@ -351,6 +362,8 @@ ul {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-left: 156px;
 }
 
 .footer-container {
