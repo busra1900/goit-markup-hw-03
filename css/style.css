@@ -13,7 +13,7 @@ body {
   width: 1440px;
 }
 
-body img {
+img {
   display: block;
 }
 
@@ -156,7 +156,6 @@ ul {
 }
 
 .random {
-  width: 1128px;
   text-align: start;
   margin-bottom: 120px;
   margin-left: 156px;
@@ -254,7 +253,7 @@ ul {
   text-align: center;
 }
 
-.job-list div {
+.personal-job {
   padding: 32px 0;
   text-align: center;
 }
@@ -263,12 +262,11 @@ ul {
   padding: 120px 0;
 }
 
-.our-portfolio .container ul {
+.portfolio {
   display: block;
   display: flex;
   flex-wrap: wrap;
   max-height: 1000px;
-  width: 1158px;
   row-gap: 48px;
   column-gap: 24px;
   margin-left: 156px;
@@ -276,13 +274,10 @@ ul {
 }
 
 .list-portfolio {
-  width: 360;
-  height: 420;
   border: 1px solid #ffffff;
   border-top: none;
-  margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
-  margin-right: 84px;
+  margin-right: 90px;
 }
 
 .list-portfolio div {
